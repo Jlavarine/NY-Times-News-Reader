@@ -1,0 +1,12 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1rem solid rgb(241, 205, 146);
+    height: 170px;
+    width: 350px;
+}
+.card-title {
+    text-align: center;
+}
