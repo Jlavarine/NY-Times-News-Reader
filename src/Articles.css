@@ -1,12 +1,27 @@
 .cards {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    border: 1rem solid rgb(241, 205, 146);
-    height: 170px;
-    width: 350px;
+    border: .5rem solid rgb(26, 25, 25);
+    height: 300px;
+    width: 95vw;
+    margin-bottom: 25px;
+    margin-left: 25px;
 }
 .card-title {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 95vw;
+
+}
+
+.article-image {
+    object-fit: cover;
+    height: 280px;
+    width: 450px;
+    margin-right: 25px;
+    margin-left: 20px;
 }
