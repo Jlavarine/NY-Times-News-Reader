@@ -40,11 +40,14 @@ const App = () => {
       </div>
     </Route>
     <Route path='/details/:title' render={({match}) => {
+      console.log("MT", match.params.title)
       const foundArticle = articles.find(article => {
         return(
           article.title === match.params.title
         )
       })
+      console.log()
+      console.log('fA',foundArticle)
       return (
         <div>
           <h1>NY Times Reader</h1>

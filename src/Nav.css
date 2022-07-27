@@ -1,0 +1,17 @@
+.title {
+    border-bottom: solid .5rem black;
+}
+
+.filter-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

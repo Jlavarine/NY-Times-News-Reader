@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-// import './Nav.css'
-const Nav = ({searchValue, handleChange, resetSearch}) => {
+import './Nav.css'
+const Nav = ({handleChange}) => {
   const allCategories = ['All', 'Business', 'Opinion', 'US', 'World']
   const allButtons = allCategories.map(category => {
     return (
@@ -16,7 +16,9 @@ const Nav = ({searchValue, handleChange, resetSearch}) => {
     <nav>
       <div className='nav'>
         <h1 className='title'>NY-Times-Reader</h1>
+        <div className='filter-options'>
           {allButtons}
+        </div>
       </div>
     </nav>
   )

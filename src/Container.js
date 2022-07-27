@@ -10,6 +10,7 @@ const Container = ({articles}) => {
                 id={id}
                 key={id}
                 title={article.title}
+                article={article} 
             />
         )
     })
