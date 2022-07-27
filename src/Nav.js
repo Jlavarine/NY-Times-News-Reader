@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Nav.css'
 const Nav = ({handleChange}) => {
   const allCategories = ['All', 'Business', 'Opinion', 'US', 'World']
@@ -15,7 +15,7 @@ const Nav = ({handleChange}) => {
   return (
     <nav>
       <div className='nav'>
-        <h1 className='title'>NY-Times-Reader</h1>
+        <NavLink to='/' style={{textDecoration: 'none', color: 'black'}}><h1 className='title'>NY-Times Reader</h1></NavLink>
         <div className='filter-options'>
           {allButtons}
         </div>
