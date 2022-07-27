@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# NY-Times Reader
+
+## Overview
+
+NY-Times Reader is an application that allows a user to browse through a list of top articles from The New York Times, filter articles based on the most popular categories, view article details, and also click a link to be directed to the actual article on the NY-Times website.
+
+## Deployed Page
+
+You can access deployed application 
+
+## Technologies
+
+- React
+- React Router
+- JavaScript
+- HTML
+- CSS
+
+## Contributors
+
+<td align="center"><a href="https://github.com/Jlavarine"><img src="https://avatars.githubusercontent.com/u/96446170?v=4" width="100px;" alt=""/><br /><sub><b>Jacob L. (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/jacoblavarine/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a><br /><a href="https://github.com/PupTrainer/fe_puptrainer/commits?author=Jlavarine" title="Code">💻</a></td>
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Set Up
 
-In the project directory, you can run:
+1. Start by going [here](https://github.com/Jlavarine/Spellcaster). From here you will want to click on the green rectangular button titled 'Code'. This should open a drop down menu where you should see a link. To the left of the link there should be an icon with two over lapping squares. You can click the icon to copy the link.
+2. You will want to clone down the repo to you terminal using `git clone git@github.com:Jlavarine/Spellcaster.git`.
+3. Once you have cloned the repo, change into the directory and install the project dependencies. Run `npm install` or `npm i` to install project dependencies.
+4. Run `npm start` in the terminal to see the page. You will need to copy and paste the local server from the terminal and paste it into your browser. The local server should be simialiar to, "http://localhost:3000/". `Control + C` is the command to stop running the local server. Closing the terminal without stopping the server first could allow the server to continue to run in the background and cause problems.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Homepage:
+- On the homepage, the user can view all of the articles.
+- The user can click on the 'Show More' button to be redirected to that article's details page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Homepage-NY](https://user-images.githubusercontent.com/96446170/181379007-f092e15a-849c-48bf-898b-485082702684.gif)
 
-### `npm test`
+#### Filtering Articles
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- On the homepage, the user can filter all of the articles by choosing a category from the buttons show on the main page.
 
-### `npm run build`
+![Filter-NY](https://user-images.githubusercontent.com/96446170/181379036-cbb43c85-5a42-46b8-88f8-df5bbf5a7092.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Article Details:
+- On the article details page, the user is greeted with the clicked article's details(such as title, abstract, and byline).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Details-NY](https://user-images.githubusercontent.com/96446170/181379079-f0364372-5ef5-4fce-9019-94868af10851.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The user can click on the home button to go back to the homepage, or the NY Times Link to go to the article's site on the NY Times website.
 
-### `npm run eject`
+![Link-NY](https://user-images.githubusercontent.com/96446170/181379099-9ebb9b2b-65be-4add-98be-d3e2a5f34695.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
