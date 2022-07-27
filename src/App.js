@@ -19,12 +19,16 @@ const App = () => {
   },[])
 
   useEffect(() => {
-    const matchingArticles = articles.filter(article =>  article.section === `${searchValue}`)
-    setFilteredArticles(matchingArticles)
+    if(searchValue === 'all') {
+      setSearchValue('')
+    } else {
+      const matchingArticles = articles.filter(article =>  article.section === `${searchValue}`)
+      setFilteredArticles(matchingArticles)
+    }
   },[searchValue])
 
   const handleChange = (event) => {
-    setSearchValue(event.target.value)
+    setSearchValue(event.target.value.toLowerCase())
   }
 
   return (
