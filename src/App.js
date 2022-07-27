@@ -3,6 +3,7 @@ import { fetchArticles } from './apiCalls'
 import Container from './Container'
 import Details from './Details'
 import Nav from './Nav'
+import NoPageFound from './NoPageFound'
 import './App.css'
 import { Route, Switch, Link } from 'react-router-dom'
 const App = () => {
@@ -52,6 +53,9 @@ const App = () => {
         </div>
       )
     }} />
+    <Route path='*'>
+      <NoPageFound />
+    </Route>
     </Switch>
   )
 }
