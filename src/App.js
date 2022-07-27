@@ -39,15 +39,12 @@ const App = () => {
         {searchValue ? <Container articles={filteredArticles}/> : <Container articles={articles} />}
       </div>
     </Route>
-    <Route path='/details/:title' render={({match}) => {
-      console.log("MT", match.params.title)
+    <Route path='/details/:id' render={({match}) => {
       const foundArticle = articles.find(article => {
         return(
-          article.title === match.params.title
+          article.uri === `nyt://article/${match.params.id}`
         )
       })
-      console.log()
-      console.log('fA',foundArticle)
       return (
         <div>
           <h1>NY Times Reader</h1>

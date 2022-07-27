@@ -1,0 +1,31 @@
+.details-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+    width: 95vw;
+}
+
+.details-title {
+    font-size: 6rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.details-abstract {
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 877px) {
+    .details-title {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .details-title {
+        font-size: 2rem;
+    }
+}

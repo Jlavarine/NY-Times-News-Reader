@@ -1,6 +1,13 @@
 body {
   background-color: rgb(227, 225, 225);
 }
+
+button {
+  border-radius: .5rem;
+  height: 3rem;
+  width: 5rem;
+  background-color: beige;
+}
 .title-box {
   display: flex;
   justify-content: center;
