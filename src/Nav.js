@@ -6,8 +6,8 @@ const Nav = ({handleChange}) => {
   const allButtons = allCategories.map(category => {
     return (
       <div key={`${category}-button`}>
-        <input name='category' type='radio' value={category} onClick={(event) => {handleChange(event)}}/>
         <label htmlFor={category}>{category}</label>
+        <input id={category} name='category' type='radio' value={category} onClick={(event) => {handleChange(event)}}/>
       </div>
       
     )
