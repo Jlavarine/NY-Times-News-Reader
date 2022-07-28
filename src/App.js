@@ -42,8 +42,9 @@ const App = () => {
     </Route>
     <Route path='/details/:id' render={({match}) => {
       const foundArticle = articles.find(article => {
+        const articleId = article.uri.split('/').pop()
         return(
-          article.uri === `nyt://article/${match.params.id}`
+          articleId === match.params.id
         )
       })
       return (
