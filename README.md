@@ -64,3 +64,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![Screen Shot 2022-07-28 at 3 57 01 PM](https://user-images.githubusercontent.com/96446170/181636776-abb20b68-7545-428c-80e6-edd6306c9a49.png)
 
 
+#### Future Additions
+
+- If I had more time, I would like to allow a user to also search for articles.
+
